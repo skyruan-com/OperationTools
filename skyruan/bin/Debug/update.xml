@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="gb2312"?>
+<AutoUpdater>
+  <Url>http://skywang.top/</Url>
+  <Application>
+    <AppName>Demo.exe</AppName>
+    <AppVersion>2.5</AppVersion>
+  </Application>
+</AutoUpdater>

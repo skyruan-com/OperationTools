@@ -1,0 +1,20 @@
+F:\visual studio2017\skyruan\skyruan\skyruan\bin\Release\skyruan.exe
+F:\visual studio2017\skyruan\skyruan\skyruan\bin\Release\skyruan.pdb
+F:\visual studio2017\skyruan\skyruan\skyruan\obj\Release\skyruan.Form1.resources
+F:\visual studio2017\skyruan\skyruan\skyruan\obj\Release\skyruan.Properties.Resources.resources
+F:\visual studio2017\skyruan\skyruan\skyruan\obj\Release\skyruan.csproj.GenerateResource.Cache
+F:\visual studio2017\skyruan\skyruan\skyruan\obj\Release\skyruan.csproj.CoreCompileInputs.cache
+F:\visual studio2017\skyruan\skyruan\skyruan\obj\Release\skyruan.exe
+F:\visual studio2017\skyruan\skyruan\skyruan\obj\Release\skyruan.pdb
+F:\visual studio2017\skyruan\skyruan\skyruan\obj\Release\skyruan.csprojAssemblyReference.cache
+F:\visual studio2017\skyruan\skyruan\skyruan\obj\Release\skyruan.Form2.resources
+F:\visual studio2017\skyruan\skyruan -\skyruan\bin\Release\skyruan.exe
+F:\visual studio2017\skyruan\skyruan -\skyruan\bin\Release\skyruan.pdb
+F:\visual studio2017\skyruan\skyruan -\skyruan\obj\Release\skyruan.csprojAssemblyReference.cache
+F:\visual studio2017\skyruan\skyruan -\skyruan\obj\Release\skyruan.Form1.resources
+F:\visual studio2017\skyruan\skyruan -\skyruan\obj\Release\skyruan.Form2.resources
+F:\visual studio2017\skyruan\skyruan -\skyruan\obj\Release\skyruan.Properties.Resources.resources
+F:\visual studio2017\skyruan\skyruan -\skyruan\obj\Release\skyruan.csproj.GenerateResource.cache
+F:\visual studio2017\skyruan\skyruan -\skyruan\obj\Release\skyruan.csproj.CoreCompileInputs.cache
+F:\visual studio2017\skyruan\skyruan -\skyruan\obj\Release\skyruan.exe
+F:\visual studio2017\skyruan\skyruan -\skyruan\obj\Release\skyruan.pdb

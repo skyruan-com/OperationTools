@@ -1,0 +1,10 @@
+F:\visual studio2017\skyruan\skyruan\skyruan\bin\Debug\skyruan.exe
+F:\visual studio2017\skyruan\skyruan\skyruan\bin\Debug\skyruan.pdb
+F:\visual studio2017\skyruan\skyruan\skyruan\obj\Debug\skyruan.Form1.resources
+F:\visual studio2017\skyruan\skyruan\skyruan\obj\Debug\skyruan.Properties.Resources.resources
+F:\visual studio2017\skyruan\skyruan\skyruan\obj\Debug\skyruan.csproj.GenerateResource.cache
+F:\visual studio2017\skyruan\skyruan\skyruan\obj\Debug\skyruan.csproj.CoreCompileInputs.cache
+F:\visual studio2017\skyruan\skyruan\skyruan\obj\Debug\skyruan.exe
+F:\visual studio2017\skyruan\skyruan\skyruan\obj\Debug\skyruan.pdb
+F:\visual studio2017\skyruan\skyruan\skyruan\obj\Debug\skyruan.csprojAssemblyReference.cache
+F:\visual studio2017\skyruan\skyruan\skyruan\obj\Debug\skyruan.Form2.resources
