@@ -136,7 +136,6 @@ namespace skyruan
             try
             {
                 IPHostEntry ipHstEntry = Dns.GetHostByAddress(IpAddress);
-                //IPHostEntry ipHstEntry = Dns.GetHostEntry(IpAddress);
                 name = ipHstEntry.HostName.ToString();
             }
             catch (Exception e)
@@ -536,13 +535,13 @@ namespace skyruan
 
         private void button5_Click(object sender, EventArgs e)
         {
+            listBox1.Items.Add("扫描开始，请勿重复操作！");
             bool blnTest = false;
             Regex regex = new Regex("^[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}$");
-            //Regex regex = new Regex("^[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}$");
             blnTest = regex.IsMatch(textBox2.Text);
             if (blnTest == true)
             {
-                string[] strTemp = this.textBox2.Text.Split(new char[] { '.' }); // textBox1.Text.Split(new char[] { '.' });
+                string[] strTemp = this.textBox2.Text.Split(new char[] { '.' }); 
                 for (int i = 0; i < strTemp.Length; i++)
                 {
                     if (Convert.ToInt32(strTemp[i]) > 255)
@@ -561,14 +560,73 @@ namespace skyruan
             IPAddress ip = IPAddress.Parse(textBox2.Text);
             Thread start = new Thread(() =>
             {
-                Parallel.For(1, 10000, i =>
+                Parallel.For(1, 4001, i =>
                 {
                     try
                     {
                         IPEndPoint point = new IPEndPoint(ip, i);
                         Socket sock = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
                         sock.Connect(point);
-                        listBox1.Items.Add("连接端口" + i + "成功!" + point);
+                        if (i==21)
+                        {
+                            listBox1.Items.Add("连接端口" + i + "成功!" + point+" ftp服务端口开启");
+                        }
+                        else if (i==22)
+                        {
+                            listBox1.Items.Add("连接端口" + i + "成功!" + point + " ssh服务端口开启");
+                        }
+                        else if (i == 23)
+                        {
+                            listBox1.Items.Add("连接端口" + i + "成功!" + point + " telnet服务端口开启");
+                        }
+                        else if (i == 25)
+                        {
+                            listBox1.Items.Add("连接端口" + i + "成功!" + point + " smtp邮件端口开启");
+                        }
+                        else if (i == 53)
+                        {
+                            listBox1.Items.Add("连接端口" + i + "成功!" + point + " DNS域名解析端口开启");
+                        }
+                        else if (i == 80)
+                        {
+                            listBox1.Items.Add("连接端口" + i + "成功!" + point + " www服务器端口开启");
+                        }
+                        else if (i == 110)
+                        {
+                            listBox1.Items.Add("连接端口" + i + "成功!" + point + " pop3邮件端口开启");
+                        }
+                        else if (i == 135)
+                        {
+                            listBox1.Items.Add("连接端口" + i + "成功!" + point + " 远程过程调用（可引起冲击波攻击）");
+                        }
+                        else if (i == 139)
+                        {
+                            listBox1.Items.Add("连接端口" + i + "成功!" + point + " 文件和打印机共享");
+                        }
+                        else if (i == 443)
+                        {
+                            listBox1.Items.Add("连接端口" + i + "成功!" + point + " 网页浏览端口开启");
+                        }
+                        else if (i == 445)
+                        {
+                            listBox1.Items.Add("连接端口" + i + "成功!" + point + " 文件共享端口（可引起勒索病毒）");
+                        }
+                        else if (i == 3306)
+                        {
+                            listBox1.Items.Add("连接端口" + i + "成功!" + point + " mysql端口开启");
+                        }
+                        else if (i == 3389)
+                        {
+                            listBox1.Items.Add("连接端口" + i + "成功!" + point + " 远程桌面开启");
+                        }
+                        else if (i == 4000)
+                        {
+                            listBox1.Items.Add("连接端口" + i + "成功!" + point + " qq端口开启");
+                        }
+                        else
+                        {
+                            listBox1.Items.Add("连接端口" + i + "成功!" + point);
+                        }                       
                     }
                     catch (Exception)
                     {

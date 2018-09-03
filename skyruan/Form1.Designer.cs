@@ -145,7 +145,7 @@
             // 
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
             this.toolStripStatusLabel1.Size = new System.Drawing.Size(313, 17);
-            this.toolStripStatusLabel1.Text = "skyruan1.1  最新版本请关注官方网站www.skyruan.com";
+            this.toolStripStatusLabel1.Text = "skyruan1.2  最新版本请关注官方网站www.skyruan.com";
             // 
             // tabControl1
             // 
@@ -427,7 +427,7 @@
             this.listBox1.ItemHeight = 12;
             this.listBox1.Location = new System.Drawing.Point(7, 7);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(384, 280);
+            this.listBox1.Size = new System.Drawing.Size(409, 280);
             this.listBox1.TabIndex = 0;
             // 
             // label4
